@@ -15,7 +15,7 @@ def parse_arguments():
     p.add_argument('-epochs', type=int, default=100,
                    help='number of epochs for train')
     p.add_argument('-batch_size', type=int, default=32,
-                   help='number of epochs for train')
+                   help='batch size for training')
     p.add_argument('-lr', type=float, default=0.0001,
                    help='initial learning rate')
     p.add_argument('-grad_clip', type=float, default=10.0,
